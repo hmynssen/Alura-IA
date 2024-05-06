@@ -1,0 +1,15 @@
+/* Estilos adicionais para complementar o Bootstrap */
+
+body {
+    background-color: #222;
+    color: #eee; 
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bbb;
+}

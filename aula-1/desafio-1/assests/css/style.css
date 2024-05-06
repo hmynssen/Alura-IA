@@ -1,15 +1,35 @@
-/* Estilos adicionais para complementar o Bootstrap */
-
 body {
     background-color: #222;
-    color: #eee; 
+    color: #eee;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #fff;
 }
 
 a {
-    color: #888;
+    color: #007bff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #bbb;
+    color: #0056b3;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
 }

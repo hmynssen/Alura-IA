@@ -36,7 +36,14 @@
     Aprendi a criar prompts eficazes para orientar o Gemini e obter respostas relevantes do chatbot, explorando diferentes tipos de prompts e suas aplicações. 
         
 * **Heitor:**
-    * AAA
+    * *Resumo:*
+        * Basicamente uma geral sobre como fazer prompts;
+        * As técnicas levam nomes intuitívos, e duas se destacam: zero-shot e few-shot. São adaptações da nomenclatura padrão de ML, mas se diferem porque não tratam do treinamento da máquina em si. A máquina é capaz de absorver alguma informação nova (contexto), mas não é treinada do zero:
+            * **Zero-shot**: se resume a dar um comando sem contexto algum;
+            * **Few-shot**: como o nome sugere, é a técnica de prover alguma informação prévia para direcionar a formatação da resposta da máquina;
+        * Há também o conceito de enriquecer os prompts. Segue a lógica inversa de busca por palavra-chave: quanto mais plavras e frases forem usadas, melhor o direcionamento da resposta. Não ficou exatamente claro se essa abordagem seria chamada de few-shot, mas acredito que sim.
+        * Ainda um pouco mais sobre o few-shot, ele pode ser feito tanto de forma contínua quanto blocada. Isto é, pode ser um ou alguns texto de contexto em sequência ou seguir um modelo de input/ouput (pergunta/resposta, resumo/título, etc...)
+
 
 ### Aula 3: Conversando com o Chatbot
 

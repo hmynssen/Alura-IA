@@ -74,7 +74,9 @@
     Explorei maneiras de personalizar meu chatbot, definindo personalidade, tom de voz e áreas de conhecimento.
         
 * **Heitor:**
-    * AAA
+    * Uma introdução sobre python/notebooks e o uso da google-generativeai;
+    * Documentação segue um padrão bem diferente das outras libs de python [link](https://ai.google.dev/gemini-api/docs/get-started/python?hl=pt-br);
+    * Foi feito um chat-bot em aula. É simplesmente um while com input e print, mas funciona legalzinho igual a versão web;
 
 ### Aula 5: Integrando o Chatbot a Outras Plataformas
 

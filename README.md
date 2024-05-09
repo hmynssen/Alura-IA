@@ -52,7 +52,20 @@
     Coloquei meu chatbot em ação, interagindo e avaliando suas respostas. Refinei o prompt para melhorar a qualidade das conversas.
         
 * **Heitor:**
-    * AAA
+    * Além das versões do programa e comandos básicos (exportação, uso do API de python, etc..), existem três parâmetros principais: TK, TP, e T
+    * Top K (TK):
+        * Primeira restrição de conxeções formadas para escolha da próxima palavra
+        * Representa o subconjunto completamente conectado a um dado nodo (palavra)
+    * Top P (TP):
+        * Subjconjunto de TK;
+        * Recebe o parâmetro p_tot;
+        * É composto por uma subcoleção de palavras rankeadas em probilidade;
+        * Agrupa-se N palavras | Sum(p(palavra)) <= p_tot;
+    * Temperatura (T):
+        * Flutuação aleatória (agitação térmica) da vacância de escolha E de TP;
+        * T = 0 => E(TP) = max(p_TP(palavra));
+        * T = 1 => E(TP) = rand_uni(palavra)
+
 
 ### Aula 4: Personalizando o Chatbot
 

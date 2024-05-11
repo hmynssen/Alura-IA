@@ -78,6 +78,19 @@
     * Documentação segue um padrão bem diferente das outras libs de python [link](https://ai.google.dev/gemini-api/docs/get-started/python?hl=pt-br);
     * Foi feito um chat-bot em aula. É simplesmente um while com input e print, mas funciona legalzinho igual a versão web;
 
+### Chat-bot
+
+* **Your turn:** Me indique 2 livros sobre Machine learning, 1 focado em LLM e outro para identificação de padrões de imagens
+* **Answer**: Focado em LLM (Large Language Models):
+
+    * **Natural Language Processing with Transformers: A Guide for Practitioners** por Lewis Tunstall, Asli Celikyilmaz, Doug Burger
+    * **Deep Learning for Natural Language Processing** por Jason Brownlee
+
+    * Para identificação de padrões de imagens:
+
+    * **Computer Vision with OpenCV 4 and Deep Learning: A Practical Guide** por Adrian Rosebrock
+    * **Deep Learning for Computer Vision: A Hands-on Guide** por Adrian Rosebrock
+
 ### Aula 5: Integrando o Chatbot a Outras Plataformas
 
 * **IA:**
@@ -85,7 +98,11 @@
     Aprendi a integrar o chatbot a outras plataformas, como sites e aplicativos de mensagens, para torná-lo acessível a um público maior. 
         
 * **Heitor:**
-    * AAA
+    * [Embeding](https://ai.google.dev/gemini-api/docs/embeddings?hl=pt-br) é um método de represnetação N-dimensional (aparentemente 768 dimensional)
+    * Utilizando o embeding, é possível fazer operações vetoriais padrão;
+    * Não necessariamente todas as oprações farão sentido;
+    * Estou curioso para entender o que seria um campo vetorial nesse espaço;
+    * É muito útil para formar respostas a partir de uma base de dados buscando por similaridades (projeções) no espaço N-dimensional
 
 ## Contato e Links Úteis
 
